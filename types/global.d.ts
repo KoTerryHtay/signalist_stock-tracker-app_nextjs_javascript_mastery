@@ -215,6 +215,16 @@ declare global {
     threshold: number;
     changePercent?: number;
   };
+
+  type UserForNewsEmail = {
+    id: string;
+    email: string;
+    name: string;
+    country: string;
+    investmentGoals?: string;
+    riskTolerance?: string;
+    preferredIndustry?: string;
+  };
 }
 
 export {};
